@@ -1,6 +1,6 @@
 #!/bin/sh
-mkdir ../MyNewProject
-cd ../MyNewProject
+# mkdir ../MyNewProject
+cd ../
 mkdir -p src/{main,test}/{java,resources,scala}
 mkdir lib project target
 
