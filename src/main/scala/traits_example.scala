@@ -30,7 +30,7 @@ abstract class Plain {
 
 // abstract class can extend multiple trait
 
-abstract class Car extends Vehicles with Vehicles1 {
+ abstract class Car extends Vehicles with Vehicles1 {
   def start()  {println("car started")}
   def stop();
   override def move()  {println("Car is moving")}
