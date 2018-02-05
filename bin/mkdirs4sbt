@@ -1,8 +1,9 @@
 #!/bin/sh
 # mkdir ../MyNewProject
-cd ../
+cd $(dirname "$0")/../
 mkdir -p src/{main,test}/{java,resources,scala}
-mkdir lib project target
+mkdir -p lib project target
+mkdir -p target/classes
 
 # create an initial build.sbt file
 

@@ -12,14 +12,15 @@ class Customers (var custumerId:Int, val customerName: String ,val customerYOB: 
     this(10, Customers.defaultCustomerName, Customers.defaultCustomerYOB, customerTemperature)
   }
 
+  def this(){
+    this(Customers.defaultCustomerID, Customers.defaultCustomerName, Customers.defaultCustomerYOB,0)
+  }
+
   println(s"Customer Info => $custumerId,$customerName, $customerYOB")
 
 }
 
 // Axilary constructor with 0 arguments
-//def this(){
-// this(Customers.defaultCustomerID, Customers.defaultCustomerName, Customers.defaultCustomerYOB,0)
-//}
 
 
 // Companion Object
